@@ -2,8 +2,8 @@
 
 public class System
 {
-    private int input;
-    public System(int input)
+    private Entry input;
+    public System(Entry input)
     {
         this.input = input;
     }
