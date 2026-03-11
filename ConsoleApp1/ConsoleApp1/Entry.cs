@@ -22,4 +22,9 @@ public class Entry : IExtractable
         Console.WriteLine($"Power: {this.power}");
         return this.power;
     }
+
+    public int[] formatToArray()
+    {
+        return new int[] { this.power, this.speed };
+    }
 }

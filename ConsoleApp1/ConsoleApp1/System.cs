@@ -13,6 +13,7 @@ public class System
     {
         input.ExtractPower();
         input.ExtractSpeed();
+        Console.WriteLine($"Power: {calculateAverage(input.formatToArray())}");
     }
 
     public double calculateAverage(int[] values)
