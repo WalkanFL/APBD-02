@@ -21,4 +21,9 @@ public class System
         return values.Average();
     }
 
+    public int calculateMax(int[] values)
+    {
+        return values.Max();
+    }
+
 }
