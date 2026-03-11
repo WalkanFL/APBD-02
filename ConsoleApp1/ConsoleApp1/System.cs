@@ -13,6 +13,7 @@ public class System
     {
         input.ExtractPower();
         input.ExtractSpeed();
+        
         Console.WriteLine($"Power: {calculateAverage(input.formatToArray())}");
         Console.WriteLine($"Discrepency: {calculateMax(input.formatToArray()) - calculateMin(input.formatToArray())}");
     }
