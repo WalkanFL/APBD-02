@@ -25,5 +25,9 @@ public class System
     {
         return values.Max();
     }
+    public int calculateMin(int[] values)
+        {
+            return values.Min();
+        }
 
 }
