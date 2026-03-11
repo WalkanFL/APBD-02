@@ -14,7 +14,7 @@ public class System
         input.ExtractPower();
         input.ExtractSpeed();
         
-        Console.WriteLine($"Power: {calculateAverage(input.formatToArray())}");
+        Console.WriteLine($"Average: {calculateAverage(input.formatToArray())}"); //jejku co za głuptasek tutaj popełnił błąd, powinniśmy użyć git blame żeby go znaleźć i zabić
         Console.WriteLine($"Discrepency: {calculateMax(input.formatToArray()) - calculateMin(input.formatToArray())}");
     }
 
