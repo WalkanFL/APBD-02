@@ -7,4 +7,10 @@ public class System
     {
         this.input = input;
     }
+
+    public void readInput()
+    {
+        input.ExtractPower();
+        input.ExtractSpeed();
+    }
 }
