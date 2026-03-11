@@ -14,7 +14,7 @@ public class System
         input.ExtractPower();
         input.ExtractSpeed();
         
-        Console.WriteLine($"Power: {calculateAverage(input.formatToArray())}");
+        Console.WriteLine($"Average of all fields in entry: {calculateAverage(input.formatToArray())}"); //błąd jaki błąd
         Console.WriteLine($"Discrepency: {calculateMax(input.formatToArray()) - calculateMin(input.formatToArray())}");
     }
 
